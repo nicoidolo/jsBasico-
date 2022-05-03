@@ -1,4 +1,3 @@
-
 // Las funciones son procedimientos, un conjunto de sentencias o pasos que realizarán una tarea o cálculo con ciertos valores.
 
 // Tenemos dos tipo de funciones en js, function Declaration y function Expression
@@ -28,7 +27,7 @@ function saludarEstudiantes(estudiante) {
 saludarEstudiantes("Nico");
 
 function saludarEstudiantes(estudiante) {
-    console.log('Hola ${estudiante}'); // template strings (Plantillas de cadena de texto)
+    console.log(`Hola ${estudiante}`); // template strings (Plantillas de cadena de texto)
 }
 
 saludarEstudiantes("Nico");
